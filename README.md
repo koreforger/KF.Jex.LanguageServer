@@ -1,4 +1,4 @@
-# Khaos.JEX.LanguageServer
+# KhaosKode.JEX.LanguageServer
 
 A Language Server Protocol (LSP) implementation for the JEX (JSON Expression) transformation DSL.
 
@@ -25,13 +25,13 @@ This project provides IDE support for JEX files through the Language Server Prot
 
 ## Usage
 
-This Language Server is typically bundled with the [Khaos.Jex.VSCode](../Khaos.Jex.VSCode) extension and runs automatically when you open a `.jex` file.
+This Language Server is typically bundled with the [KhaosKode.Jex.VSCode](../KhaosKode.Jex.VSCode) extension and runs automatically when you open a `.jex` file.
 
 ### Standalone Usage
 
 ```bash
 # Run the Language Server (communicates via stdio)
-dotnet run --project src/Khaos.JEX.LanguageServer
+dotnet run --project src/KhaosKode.JEX.LanguageServer
 ```
 
 ## Architecture
@@ -55,7 +55,7 @@ dotnet run --project src/Khaos.JEX.LanguageServer
 │  │  └─────┬─────┘ └─────────────┘ └─────────────────┘   │  │
 │  │        │                                              │  │
 │  │  ┌─────┴─────┐                                       │  │
-│  │  │ Document  │ ◄─── Uses Khaos.JEX Parser            │  │
+│  │  │ Document  │ ◄─── Uses KhaosKode.JEX Parser            │  │
 │  │  │   State   │                                       │  │
 │  │  └───────────┘                                       │  │
 │  └───────────────────────────────────────────────────────┘  │
@@ -64,7 +64,7 @@ dotnet run --project src/Khaos.JEX.LanguageServer
 
 ## Dependencies
 
-- **Khaos.JEX** - Core JEX parser and runtime
+- **KhaosKode.JEX** - Core JEX parser and runtime
 - **OmniSharp.Extensions.LanguageServer** - LSP framework
 
 ## License
