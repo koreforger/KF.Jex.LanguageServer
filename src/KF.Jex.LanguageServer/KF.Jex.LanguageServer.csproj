@@ -7,6 +7,10 @@
     <Nullable>enable</Nullable>
     <RootNamespace>KF.Jex.LanguageServer</RootNamespace>
     <AssemblyName>KF.Jex.LanguageServer</AssemblyName>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>jex-lsp</ToolCommandName>
+    <PackageId>KF.Jex.LanguageServer</PackageId>
+    <Description>Language Server Protocol implementation for the JEX JSON transformation DSL</Description>
   </PropertyGroup>
 
   <ItemGroup>
