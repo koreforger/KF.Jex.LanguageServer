@@ -22,13 +22,13 @@ jobs:
           dotnet-version: '10.0.x'
 
       - name: Restore
-        run: dotnet restore KF.Jex.LanguageServer.sln
+        run: dotnet restore KF.Jex.LanguageServer.slnx
 
       - name: Build
-        run: dotnet build KF.Jex.LanguageServer.sln --configuration Release --no-restore
+        run: dotnet build KF.Jex.LanguageServer.slnx --configuration Release --no-restore
 
       - name: Test
-        run: dotnet test KF.Jex.LanguageServer.sln --configuration Release --no-build
+        run: dotnet test KF.Jex.LanguageServer.slnx --configuration Release --no-build
 
       - name: Pack
         run: |
