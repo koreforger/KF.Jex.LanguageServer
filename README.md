@@ -14,13 +14,13 @@ This project provides IDE support for JEX files through the Language Server Prot
 ## Building
 
 ```powershell
-.\scripts\build.ps1
+.\scr\build-rebuild.ps1
 ```
 
 ## Testing
 
 ```powershell
-.\scripts\test.ps1
+.\scr\build-test.ps1
 ```
 
 ## Usage
@@ -70,3 +70,5 @@ dotnet run --project src/KF.Jex.LanguageServer
 ## License
 
 MIT License - See [LICENSE.md](LICENSE.md)
+
+
