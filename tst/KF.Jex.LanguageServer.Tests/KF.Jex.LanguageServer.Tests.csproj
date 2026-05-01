@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\KF.Jex.LanguageServer\KF.Jex.LanguageServer.csproj" />
+    <PackageReference Include="KF.Jex.LanguageServer" VersionOverride="1.0.1-alpha" />
   </ItemGroup>
 
 </Project>
