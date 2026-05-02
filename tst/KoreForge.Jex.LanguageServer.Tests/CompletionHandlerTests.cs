@@ -1,10 +1,10 @@
-using KF.Jex.LanguageServer.Handlers;
-using KF.Jex.LanguageServer.Services;
+using KoreForge.Jex.LanguageServer.Handlers;
+using KoreForge.Jex.LanguageServer.Services;
 using OmniSharp.Extensions.LanguageServer.Protocol;
 using OmniSharp.Extensions.LanguageServer.Protocol.Models;
 using Xunit;
 
-namespace KF.Jex.LanguageServer.Tests;
+namespace KoreForge.Jex.LanguageServer.Tests;
 
 public class CompletionHandlerTests
 {

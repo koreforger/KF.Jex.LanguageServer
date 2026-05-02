@@ -1,4 +1,4 @@
-namespace KF.Jex.LanguageServer.Services;
+namespace KoreForge.Jex.LanguageServer.Services;
 
 /// <summary>
 /// Provides information about the JEX standard library functions.

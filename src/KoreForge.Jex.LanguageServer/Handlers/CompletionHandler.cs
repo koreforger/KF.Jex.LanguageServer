@@ -1,10 +1,10 @@
-using KF.Jex.LanguageServer.Services;
+using KoreForge.Jex.LanguageServer.Services;
 using OmniSharp.Extensions.LanguageServer.Protocol;
 using OmniSharp.Extensions.LanguageServer.Protocol.Client.Capabilities;
 using OmniSharp.Extensions.LanguageServer.Protocol.Document;
 using OmniSharp.Extensions.LanguageServer.Protocol.Models;
 
-namespace KF.Jex.LanguageServer.Handlers;
+namespace KoreForge.Jex.LanguageServer.Handlers;
 
 /// <summary>
 /// Handles completion requests for JEX documents.

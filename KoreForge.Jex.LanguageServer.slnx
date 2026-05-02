@@ -5,9 +5,9 @@
     <Platform Name="x86" />
   </Configurations>
   <Folder Name="/src/">
-    <Project Path="src/KF.Jex.LanguageServer/KF.Jex.LanguageServer.csproj" />
+    <Project Path="src/KoreForge.Jex.LanguageServer/KoreForge.Jex.LanguageServer.csproj" />
   </Folder>
   <Folder Name="/tst/">
-    <Project Path="tst/KF.Jex.LanguageServer.Tests/KF.Jex.LanguageServer.Tests.csproj" />
+    <Project Path="tst/KoreForge.Jex.LanguageServer.Tests/KoreForge.Jex.LanguageServer.Tests.csproj" />
   </Folder>
 </Solution>

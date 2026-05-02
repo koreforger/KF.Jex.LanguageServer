@@ -1,8 +1,8 @@
-using KF.Jex.LanguageServer.Services;
+using KoreForge.Jex.LanguageServer.Services;
 using OmniSharp.Extensions.LanguageServer.Protocol;
 using Xunit;
 
-namespace KF.Jex.LanguageServer.Tests;
+namespace KoreForge.Jex.LanguageServer.Tests;
 
 public class DocumentManagerTests
 {

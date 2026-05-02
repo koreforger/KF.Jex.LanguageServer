@@ -1,7 +1,7 @@
-using KF.Jex.LanguageServer.Services;
+using KoreForge.Jex.LanguageServer.Services;
 using Xunit;
 
-namespace KF.Jex.LanguageServer.Tests;
+namespace KoreForge.Jex.LanguageServer.Tests;
 
 public class FunctionManifestLoaderTests : IDisposable
 {

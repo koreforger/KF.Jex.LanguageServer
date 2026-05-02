@@ -1,4 +1,4 @@
-# KF.Jex.LanguageServer
+# KoreForge.Jex.LanguageServer
 
 A Language Server Protocol (LSP) implementation for the JEX (JSON Expression) transformation DSL.
 
@@ -25,13 +25,13 @@ This project provides IDE support for JEX files through the Language Server Prot
 
 ## Usage
 
-This Language Server is typically bundled with the [KF.Jex.VSCode](../KF.Jex.VSCode) extension and runs automatically when you open a `.jex` file.
+This Language Server is typically bundled with the [KoreForge.Jex.VSCode](../KoreForge.Jex.VSCode) extension and runs automatically when you open a `.jex` file.
 
 ### Standalone Usage
 
 ```bash
 # Run the Language Server (communicates via stdio)
-dotnet run --project src/KF.Jex.LanguageServer
+dotnet run --project src/KoreForge.Jex.LanguageServer
 ```
 
 ## Architecture

@@ -2,10 +2,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using OmniSharp.Extensions.LanguageServer.Protocol.Models;
 using OmniSharp.Extensions.LanguageServer.Server;
-using KF.Jex.LanguageServer.Handlers;
-using KF.Jex.LanguageServer.Services;
+using KoreForge.Jex.LanguageServer.Handlers;
+using KoreForge.Jex.LanguageServer.Services;
 
-namespace KF.Jex.LanguageServer;
+namespace KoreForge.Jex.LanguageServer;
 
 /// <summary>
 /// Entry point for the JEX Language Server.

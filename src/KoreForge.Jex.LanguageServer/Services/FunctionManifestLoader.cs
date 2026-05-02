@@ -1,6 +1,6 @@
 using System.Text.Json;
 
-namespace KF.Jex.LanguageServer.Services;
+namespace KoreForge.Jex.LanguageServer.Services;
 
 /// <summary>
 /// Loads function manifests that describe host-registered C# functions.

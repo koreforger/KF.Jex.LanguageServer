@@ -1,7 +1,7 @@
 using System.Collections.Concurrent;
 using OmniSharp.Extensions.LanguageServer.Protocol;
 
-namespace KF.Jex.LanguageServer.Services;
+namespace KoreForge.Jex.LanguageServer.Services;
 
 /// <summary>
 /// Manages open text documents and their parsed state.

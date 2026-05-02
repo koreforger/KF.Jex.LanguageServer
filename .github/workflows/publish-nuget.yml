@@ -3,7 +3,7 @@ name: Publish to NuGet (Trusted Publishing)
 on:
   push:
     tags:
-      - 'KF.Jex.LanguageServer/v*'
+      - 'KoreForge.Jex.LanguageServer/v*'
 
 permissions:
   contents: write
@@ -22,24 +22,24 @@ jobs:
           dotnet-version: '10.0.x'
 
       - name: Restore
-        run: dotnet restore KF.Jex.LanguageServer.slnx
+        run: dotnet restore KoreForge.Jex.LanguageServer.slnx
 
       - name: Build
-        run: dotnet build KF.Jex.LanguageServer.slnx --configuration Release --no-restore
+        run: dotnet build KoreForge.Jex.LanguageServer.slnx --configuration Release --no-restore
 
       - name: Test
-        run: dotnet test KF.Jex.LanguageServer.slnx --configuration Release --no-build
+        run: dotnet test KoreForge.Jex.LanguageServer.slnx --configuration Release --no-build
 
       - name: Pack
         run: |
-          TAG_NAME="${GITHUB_REF_NAME#KF.Jex.LanguageServer/}"
+          TAG_NAME="${GITHUB_REF_NAME#KoreForge.Jex.LanguageServer/}"
           VERSION="${TAG_NAME#v}"
           if [[ -z "$VERSION" || "$VERSION" == "$TAG_NAME" ]]; then
             echo "Unable to parse package version from tag '$GITHUB_REF_NAME'." >&2
             exit 1
           fi
 
-          dotnet pack src/KF.Jex.LanguageServer/KF.Jex.LanguageServer.csproj \
+          dotnet pack src/KoreForge.Jex.LanguageServer/KoreForge.Jex.LanguageServer.csproj \
             --configuration Release \
             --no-build \
             -p:PackageVersion=$VERSION \

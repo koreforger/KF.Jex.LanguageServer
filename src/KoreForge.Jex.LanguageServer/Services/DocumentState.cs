@@ -3,7 +3,7 @@ using KoreForge.Jex.Parser;
 using OmniSharp.Extensions.LanguageServer.Protocol;
 using JexProgram = KoreForge.Jex.Parser.Program;
 
-namespace KF.Jex.LanguageServer.Services;
+namespace KoreForge.Jex.LanguageServer.Services;
 
 /// <summary>
 /// Represents the parsed state of a document.

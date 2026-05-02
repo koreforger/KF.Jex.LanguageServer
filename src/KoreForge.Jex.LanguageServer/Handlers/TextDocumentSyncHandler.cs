@@ -1,4 +1,4 @@
-using KF.Jex.LanguageServer.Services;
+using KoreForge.Jex.LanguageServer.Services;
 using MediatR;
 using OmniSharp.Extensions.LanguageServer.Protocol;
 using OmniSharp.Extensions.LanguageServer.Protocol.Client.Capabilities;
@@ -8,7 +8,7 @@ using OmniSharp.Extensions.LanguageServer.Protocol.Server;
 using OmniSharp.Extensions.LanguageServer.Protocol.Server.Capabilities;
 using OmniSharp.Extensions.LanguageServer.Protocol.General;
 
-namespace KF.Jex.LanguageServer.Handlers;
+namespace KoreForge.Jex.LanguageServer.Handlers;
 
 /// <summary>
 /// Handles text document synchronization (open, change, close).
